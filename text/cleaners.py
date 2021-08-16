@@ -97,6 +97,4 @@ def nfd(text):
 def bengali_cleaners(text):
   text = lowercase(text)
   text = collapse_whitespace(text)
-  text = nfd(text)
-  text = text.replace(_eos, '') + _eos
   return text
