@@ -7,7 +7,7 @@ The default is a set of ASCII characters that works well for English or text tha
 from text import cmudict
 
 _pad        = '_'
-_punctuation = '!\'(),.:;?। '
+_punctuation = '!\'(),.:;? '
 _eos = '~'
 _special = '-'
 _bengali_jaso_code = list(range(0x0980,0x09FF))
