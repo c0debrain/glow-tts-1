@@ -14,7 +14,8 @@ import re
 # ]
 
 valid_symbols = [
-  'OY1', 'OY2', 'P', 'R', 'S', 'SH', 'T', 'TH', 'UH', 'UH0', 'UH1', 'UH2', 'UW'
+  'OY1', 'OY2', 'P', 'R', 'S', 'SH', 'T', 'TH', 'UH', 'UH0', 'UH1', 'UH2', 'UW',
+  'UW0', 'UW1', 'UW2'
 ]
 
 _valid_symbol_set = set(valid_symbols)
