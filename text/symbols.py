@@ -19,4 +19,4 @@ _letters = _bengali_jaso
 
 # Export all symbols:
 #symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
-symbols = list(_punctuation) + list(_letters) + list(_eos)
+symbols = [_pad] + list(_special) + list(_punctuation) + list(_punctuation) + list(_letters) + list(_eos)
