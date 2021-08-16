@@ -15,7 +15,8 @@ _bengali_jaso = list(chr(c) for c in _bengali_jaso_code)
 _letters = _bengali_jaso
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
-_arpabet = ['@' + s for s in cmudict.valid_symbols]
+#_arpabet = ['@' + s for s in cmudict.valid_symbols]
 
 # Export all symbols:
-symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
+#symbols = [_pad] + list(_special) + list(_punctuation) + list(_letters) + _arpabet
+symbols = list(_punctuation) + list(_letters) + list(_eos)
