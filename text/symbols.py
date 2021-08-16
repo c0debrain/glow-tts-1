@@ -10,9 +10,9 @@ _pad        = '_'
 _punctuation = '!\'(),.:;?। '
 _eos = '~'
 _special = '-'
-_bengali_jaso_code = list(range(0x0980,0x09FF)))
+_bengali_jaso_code = list(range(0x0980,0x09FF))
 _bengali_jaso = list(chr(c) for c in _bengali_jaso_code)
-_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' + _bengali_jaso
+_letters = _bengali_jaso
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
