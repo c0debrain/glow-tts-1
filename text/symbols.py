@@ -7,12 +7,12 @@ The default is a set of ASCII characters that works well for English or text tha
 from text import cmudict
 
 _pad        = '_'
-_punctuation = '!\'(),.:;? '
+_punctuation = '!\'(),.:;?। '
 _eos = '~'
 _special = '-'
 _english_jaso_code = list(range(0x0040,0x007A))
 _bengali_jaso_code = list(range(0x0980,0x09FF))
-_jaso_code = _english_jaso_code + _bengali_jaso_code
+_jaso_code = _english_jaso_code + _bengali_jaso_code + _english_jaso_code
 _jaso = list(chr(c) for c in _jaso_code)
 _letters = _jaso
 
